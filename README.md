@@ -1,11 +1,15 @@
 # Vulnerable-Server-Scanner
 ## 프로젝트 개요
-목표 : 파이썬을 이용하여 취약 서버의 호스트에 대해서 스캔 후 서비스별 공격 시도   
-사용 스킬 : Python(3.6.8)   
-사용된 파이썬 라이브러리 : time, ftplib, datetime, socket, os, paramiko, logging, getpass, telnetlib  
-사용 환경 : Centos7
+### 목표
+- 파이썬을 이용하여 취약 서버의 호스트에 대해서 스캔 후 서비스별 공격 시도   
+### 사용 스킬
+- Python(3.6.8)   
+### 사용된 파이썬 라이브러리
+- time, ftplib, datetime, socket, os, paramiko, logging, getpass, telnetlib  
+### 사용 환경
+- Centos7
 
-기능
+### 기능
 - 호스트 및 포트 스캔
 - telnet 공격
 - ssh 공격
