@@ -79,7 +79,7 @@ def main(tgtHost,passwdFile): #메인함수
 
     print('\n\n< ftp 공격을 시작합니다 >\n')
 
-    redirect = "<iframe src='http://is.woosuk.ac.kr'></iframe>"
+    redirect = "<script>alert('해킹위험');</script>"
 
     while tgtHost=='':
         tgtHost = input('호스트 입력 : ')
