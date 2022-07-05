@@ -1,4 +1,4 @@
-# Vulnerable-Server-Scanner
+# Vulnerable-Server-Scanner (취약 서버 스캐너)
 ## 프로젝트 개요
 ### 목표
 - 파이썬을 이용하여 취약 서버의 호스트에 대해서 스캔 후 서비스별 공격 시도   
