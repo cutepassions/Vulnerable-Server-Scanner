@@ -28,7 +28,7 @@
 - 호스트를 입력하고 21, 22, 23번 포트가 열려있는지 확인
 
 ![image](https://user-images.githubusercontent.com/105566077/177365705-35b22e46-4dc2-4f8b-8471-60d57e675b3f.png)   
-=> 단일 호스트 혹은 호스트 범위를 입력해서 해당 호스트(들)에 대해서 포트 스캔
+=> 단일 호스트 혹은 호스트 범위를 입력해서 해당 호스트(들)에 대해서 포트 스캔  
 https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/0b45357243e129c3ca09f1d1fc6a97b9f9a3141a/portscan.py#L38-#L54
 
 ## telnet 공격
