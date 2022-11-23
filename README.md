@@ -29,7 +29,7 @@
 
 ![image](https://user-images.githubusercontent.com/105566077/177365705-35b22e46-4dc2-4f8b-8471-60d57e675b3f.png)   
 => 단일 호스트 혹은 호스트 범위를 입력해서 해당 호스트(들)에 대해서 포트 스캔  
-https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/55b576eabc3ac3ca4d856f5453d1c9a585c0a5a6/portscan.py
+https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/55b576eabc3ac3ca4d856f5453d1c9a585c0a5a6/portscan.py#L38-L54
 
 ## telnet 공격
 - telnet으로 해당 호스트에 로그인
@@ -37,12 +37,14 @@ https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/55b576eabc3ac3ca4
 ![image](https://user-images.githubusercontent.com/105566077/177366267-9fb9f025-40cc-4f01-992f-700d4b9bcd39.png)   
 ![image](https://user-images.githubusercontent.com/105566077/177366654-79539654-001f-4ec6-b358-d65cc7f61f92.png)   
 => 사용자에게 입력받은 계정으로 접속하여 특정 명령어를 입력한 후에 이후 접속 종료   
-
+https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/a8fdad9096bd5be30868bc36de417217650ec4db/telnet.py#L10-L25
 ## ssh 공격
 - ssh로 해당 호스트에 로그인
 
 ![image](https://user-images.githubusercontent.com/105566077/177367987-4f27f881-f6e1-43ac-a8cd-d9b3ac4feab4.png)   
 => 호스트를 입력하고 딕셔너리 공격을 위한 텍스트 파일을 입력하면 공격 시작
+https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/a8fdad9096bd5be30868bc36de417217650ec4db/ssh.py#L20-L22
+https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/a8fdad9096bd5be30868bc36de417217650ec4db/ssh.py#L26-L33
 
 ![image](https://user-images.githubusercontent.com/105566077/177368169-ce5bbb75-43af-4458-bc66-2c8bb26b0d5f.png)
 (userpass.txt)   
@@ -74,8 +76,8 @@ https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/55b576eabc3ac3ca4
 => 이후 서비스들에 대해서 ftp > ssh > telnet 순으로 공격 시도   
 => 해당 과정에서 ftp및 ssh를 딕서너리 공격으로 공격을 시도하고 로그인 성공 시 해당 계정을 기반으로 이후 서비스들을 공격   
 => 공격 완료 후 공격 완료 메시지 출력   
-![image](https://user-images.githubusercontent.com/105566077/177380344-c8092a39-3ba9-4d9b-95da-d6e3b7fa2673.png)
-
+![image](https://user-images.githubusercontent.com/105566077/177380344-c8092a39-3ba9-4d9b-95da-d6e3b7fa2673.png)   
+https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/a8fdad9096bd5be30868bc36de417217650ec4db/auto.py#L4-L40
 
 ## 프로젝트 결과
 ### 소요 기간
