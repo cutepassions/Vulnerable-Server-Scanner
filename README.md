@@ -29,7 +29,7 @@
 
 ![image](https://user-images.githubusercontent.com/105566077/177365705-35b22e46-4dc2-4f8b-8471-60d57e675b3f.png)   
 => 단일 호스트 혹은 호스트 범위를 입력해서 해당 호스트(들)에 대해서 포트 스캔  
-https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/0b45357243e129c3ca09f1d1fc6a97b9f9a3141a/portscan.py#L38-#L54
+https://github.com/cutepassions/Vulnerable-Server-Scanner/blob/55b576eabc3ac3ca4d856f5453d1c9a585c0a5a6/portscan.py
 
 ## telnet 공격
 - telnet으로 해당 호스트에 로그인
